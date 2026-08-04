@@ -1,0 +1,19 @@
+{
+  "name": "course-marketplace-call-costs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/course_listing.ts",
+    "test": "tsx --test test/call_receipt.test.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
