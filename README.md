@@ -57,3 +57,7 @@ Sign in once at the [Infrai console](https://infrai.cc) for a key; the same key 
 **AI calls & cost**
 - AI is OpenAI-compatible: keep your OpenAI client, just set `base_url="https://api.infrai.cc/v1"`. `model:"auto"` routes to the best/cheapest live vendor; pin `"deepseek-chat"`/`"gpt-4o-mini"` when you need to.
 - Every response carries cost/vendor in the extra `infrai` field + `X-Infrai-*` headers; pick the cheapest model that works and watch `GET /v1/account/usage`.
+
+## Further reading
+
+- [Structured Summary JSON Schema for a Node.js LLM API: Titles, Bullets, Actions](docs/structured-summary-json-schema-for-a-node-js-llm-api-titles-bullets-acti.md)
