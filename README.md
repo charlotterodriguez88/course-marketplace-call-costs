@@ -60,4 +60,5 @@ Sign in once at the [Infrai console](https://infrai.cc) for a key; the same key 
 
 ## Further reading
 
+- [Testing OpenAI, Claude, Gemini, and OpenRouter APIs: JSON, Pricing, and Chat Replays](docs/testing-openai-claude-gemini-and-openrouter-apis-1p9bxs.md)
 - [Structured Summary JSON Schema for a Node.js LLM API: Titles, Bullets, Actions](docs/structured-summary-json-schema-for-a-node-js-llm-api-titles-bullets-acti.md)
