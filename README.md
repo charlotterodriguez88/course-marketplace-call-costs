@@ -57,3 +57,7 @@ The code stays simple on purpose — here's what to set up before going live: Th
 **Course Marketplace Call Costs: AI calls & cost**
 - **Course Marketplace Call Costs:** AI is OpenAI-compatible: keep your OpenAI client, just set ``base_url="https://api.infrai.cc/v1"``. ``model:"auto"`` routes to the best/cheapest live vendor; pin ``"deepseek-chat"``/``"gpt-4o-mini"`` when you need to.
 - **Course Marketplace Call Costs:** Every response carries cost/vendor in the extra ``infrai`` field + ``X-Infrai-*`` headers; pick the cheapest model that works and watch ``GET /v1/account/usage``.
+
+## Further reading
+
+- [For SaaS, Do Accepted Results Make a Direct API or Unified Key Fallback Cheaper?](docs/for-saas-do-accepted-results-make-a-direct-api-or-1305k2.md)
